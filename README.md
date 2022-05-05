@@ -1,5 +1,16 @@
-# NYT-Discord-Bot
+# Data Ingestion and Analysis (ingestor.ipynb)
 Final project submission for DS3002 Database Systems
+
+## Motivation
+The motivation of this project was to build a process that excecutes an API call _exactly_ once every minute for one hour starting at 00 minutes and ending at 59 minutes. The project then stores the data in a relational database. The author examined trends in the data and provides possible explanations for the patterns.
+
+### 1. Process, Code, and Deployment Strategy
+The project uses python to make an API call to a given website that contains factor, pi, and time data. This information is writtent to a MySQL database table. The data is the extracted from the table and converted to plots demonstrating the relationsihp between each of the variables.\n\n
+A relational database was chosen because the structure of the data is static, integer, decimal, and datetime information. The desired variables remain factor, pi, and time. If the project required future changes or was designed at a time when the variables were not readily available, a NoSQL design would have been preferred.\n\n
+Deployment of this process is simple. Users desiring minutes 00 through 59 simply execute the code at the beginning of the hour, and the process runs until the desired information is colleced from the API.
+
+
+# NYT-Discord-Bot (main.py, keep_alive.py)
 
 ## Motivation
 The motivation of this project was to build a discord bot that interacts with user instructions and connects to an external data source to provide valuable real-time information.
