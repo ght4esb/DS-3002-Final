@@ -1,4 +1,4 @@
-# Data Ingestion and Analysis (ingestor.ipynb)
+# Data Ingestion and Analysis (ingestor.ipynb, CodeBasedAnalysis.pdf, ProofConsistentExecution.pdf)
 Final project submission for DS3002 Database Systems
 
 ## Motivation
